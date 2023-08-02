@@ -1,0 +1,8 @@
+prefix=/home/caft-yasiru/arm/install
+
+Name: v3-urdf-6
+Description: Description of v3-urdf-6
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

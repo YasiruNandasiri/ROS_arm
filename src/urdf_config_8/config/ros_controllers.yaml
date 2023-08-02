@@ -1,0 +1,100 @@
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - Joint_01
+    - Joint_02
+    - Joint_03
+    - Joint_04
+    - Joint_05
+  gains:
+    Joint_01:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_02:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_03:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_04:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_05:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+hand_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - Joint_06
+    - Joint_07
+  gains:
+    Joint_06:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_07:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+arm_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - Joint_01
+    - Joint_02
+    - Joint_03
+    - Joint_04
+    - Joint_05
+  gains:
+    Joint_01:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_02:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_03:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_04:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_05:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+hand_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - Joint_06
+    - Joint_07
+  gains:
+    Joint_06:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint_07:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

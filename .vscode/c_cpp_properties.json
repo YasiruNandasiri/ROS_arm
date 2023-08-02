@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/caft-yasiru/arm/devel/include/**",
+        "/home/caft-yasiru/rostest/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/caft-yasiru/rostest/src/learn_pkg/include/**",
+        "/home/caft-yasiru/arm/src/point_move/include/**",
+        "/home/caft-yasiru/arm/src/rosserial/rosserial_server/include/**",
+        "/home/caft-yasiru/arm/src/rosserial/rosserial_test/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
